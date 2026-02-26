@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://humantric.up.railway.app/'; // se actualizará cuando hagamos el backend
+const API_URL = 'https://humantric.up.railway.app'; // se actualizará cuando hagamos el backend
 
 const api = axios.create({ baseURL: API_URL });
 
