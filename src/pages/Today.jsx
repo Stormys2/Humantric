@@ -30,7 +30,7 @@ export default function Today({ logs, setLogs, isGuest }) {
     if (isGuest) { alert(t('guest_save_blocked')); return; }
     setSaving(true); setError('');
     try {
-      const payload = { date: key, checks, score };
+      const payload = { date: key, checks: JSON.stringify(checks), score };
       if (saved) {
         await logsAPI.update(key, payload);
       } else {
