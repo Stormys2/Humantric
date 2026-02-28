@@ -98,6 +98,13 @@ export default function History({ logs }) {
               </span>
             </div>
 
+            {selLog.reflection && (
+              <div className="hist-reflection">
+                <span className="hist-reflection-label">💬 {t('reflection_label')}</span>
+                <p className="hist-reflection-text">{selLog.reflection}</p>
+              </div>
+            )}
+
             {CATEGORIES.map(cat => {
               const done = cat.habits.filter(h => selLog.checks?.[h.id]).length;
               const total = cat.habits.length;

@@ -60,7 +60,7 @@ function checkAlert(logs) {
 function LineChart({ data, days }) {
   const W = 560, H = 160, PX = 36, PY = 20;
   const cW = W - PX*2, cH = H - PY*2;
-
+  const vals = data.map(d => d.score ?? 0);
   const max  = 100, min = 0;
 
   const toX = i => PX + (i / (data.length - 1)) * cW;

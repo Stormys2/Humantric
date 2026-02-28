@@ -137,3 +137,14 @@
   .hist-wrap { grid-template-columns: 1fr; }
   .hist-right { order: -1; }
 }
+
+.hist-reflection {
+  background: var(--bg-card2);
+  border-radius: 10px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.hist-reflection-label { color: var(--text-mid); font-size: 11px; font-weight: 500; }
+.hist-reflection-text  { color: var(--text); font-size: 13px; line-height: 1.5; }

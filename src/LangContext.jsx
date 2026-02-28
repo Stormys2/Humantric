@@ -84,6 +84,10 @@ const T = {
     habit_productive:     'Me sentí productivo hoy',
     // History
     no_data_day:   'Sin registro para este día',
+    editing_past:        'Editando día pasado',
+    go_today:            'Ir a hoy',
+    reflection_label:    'Reflexión del día',
+    reflection_placeholder: '¿Cómo te sentiste hoy? ¿Algo que quieras recordar?',
     // Metrics
     metrics_title:   'Tus métricas',
     streak_days:     'días de racha',
@@ -177,6 +181,10 @@ const T = {
     habit_creativity:     'Did something creative',
     habit_productive:     'Felt productive today',
     no_data_day:   'No record for this day',
+    editing_past:        'Editing past day',
+    go_today:            'Go to today',
+    reflection_label:    'Daily reflection',
+    reflection_placeholder: 'How did you feel today? Anything you want to remember?',
     metrics_title:   'Your metrics',
     streak_days:     'day streak',
     avg_score:       'Average score',
